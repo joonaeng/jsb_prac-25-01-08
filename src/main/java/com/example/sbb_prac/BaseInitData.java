@@ -1,5 +1,8 @@
 package com.example.sbb_prac;
 
+import com.example.sbb_prac.answer.AnswerRepository;
+import com.example.sbb_prac.question.Question;
+import com.example.sbb_prac.question.QuestionRepository;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
